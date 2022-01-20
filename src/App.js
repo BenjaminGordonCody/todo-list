@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+
+// These are all the components we've made this week
+// import Navbar from "./components/Navbar";
+// import Jumbotron from "./components/Jumbotron";
+// import Footer from "./components/Footer";
+// import Carousel from "./components/Carousel";
+// import Content from "./components/Content";
+// import CountPanel from "./components/CountingButtons";
+// import Calculator from "./components/Calculator";
+import ToDo from "./components/ToDo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToDo />
     </div>
   );
 }
