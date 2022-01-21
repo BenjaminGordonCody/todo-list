@@ -96,3 +96,9 @@ h1 {
   width: 170px;
   padding: 20px;
 }
+
+p {
+  font-size: smaller;
+  margin: 0px;
+  text-decoration: line-through;
+}
