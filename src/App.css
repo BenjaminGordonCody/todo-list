@@ -1,15 +1,98 @@
 /* TODO styling --------------------------------- */
-
-.task {
-  border: 1px solid black;
-  width: 200px;
-  margin: 5px;
+#container {
+  background-image: linear-gradient(rgb(23, 88, 4), rgb(5, 126, 126));
+  max-width: fit-content;
+  padding: 20px;
   border-radius: 5px;
-  background: rgba(200, 200, 200, 1);
+  display: grid;
+  margin: 50px;
+}
+
+form {
+  color: rgba(255, 255, 255, 0.9);
+  grid-column: 1 / 3;
+  grid-row: 1;
+  margin: 10px;
+  width: 600px;
+  height: 30px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+#textInput {
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.13),
+    rgba(255, 255, 255, 0.911)
+  );
+}
+
+#submitButton {
+  border-radius: 50%;
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+  color: rgb(5, 126, 126);
+  margin-top: 0px;
+}
+
+#tasks {
+  grid-column: 1/2;
+  grid-row: 2;
+  padding: 10px;
+  min-width: 370px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+}
+.task {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.7);
+  margin-right: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.taskText {
+  width: 300px;
 }
 .complete {
   text-decoration: line-through;
   margin-left: 30px;
+  margin-right: 0px;
   background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.delete {
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+#archive {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding-left: 25px;
+  grid-column: 2;
+  grid-row: 2;
+  width: 170px;
+  padding: 20px;
 }
