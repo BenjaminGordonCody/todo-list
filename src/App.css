@@ -82,6 +82,13 @@ h1 {
 
 .delete {
   background-color: red;
+}
+
+.edit {
+  background-color: orange;
+}
+
+.button {
   border-radius: 50%;
   width: 20px;
   height: 20px;
