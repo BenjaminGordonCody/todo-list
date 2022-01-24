@@ -56,13 +56,6 @@ const ToDo = (args) => {
             onClickDelete(task.task);
           }}
         ></div>
-
-        <div
-          className="edit button"
-          onClick={() => {
-            onClickDelete(task.task);
-          }}
-        ></div>
       </div>
     );
   };
